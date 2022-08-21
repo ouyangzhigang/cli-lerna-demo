@@ -1,0 +1,23 @@
+{
+  "name": "cli-demo-lerna",
+  "version": "1.0.0",
+  "description": "lerna cli demo nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "build"
+  },
+  "keywords": [
+    "lerna",
+    "cli",
+    "demo",
+    "nodejs"
+  ],
+  "author": "Voyagergle",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^5.4.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
